@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Sketch</title>
+    <title>Graph Creator</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-    <script src="libraries/p5.min.js"></script>
-    <script src="libraries/p5.sound.min.js"></script>
-  </head>
-
-  <body>
-    <script src="sketch.js"></script>
-  </body>
+<body>
+    <h3>Note: this uses JavaScript for formulas, so some operators like % may not work properly.</h3>
+    <h4>Also, you can use a semicolon (;) to set multiple variables (e.g. "h = 5; y = x^2 + h").</h4>
+    <form action="sketch.html">
+        <input type="text" name="rules">
+        <input type="submit" value="View Graph">
+    </form>
+</body>
 </html>
